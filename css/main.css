@@ -1,11 +1,11 @@
 body {
-    background-image:  linear-gradient(to left top, #7ae698, #bdd573, #e8c070, #feae86, #fda3a6, #f9a7ac, #f4aab2, #efaeb7, #f1baaf, #edc7ae, #e6d3b5, #dfdfc3);
-    font-family: "Arial", sans-serif;
+    background-image:  linear-gradient( #7ae698, #bdd573, #e8c070, #feae86, #fda3a6, #f9a7ac, #f4aab2, #efaeb7, #f1baaf, #edc7ae, #e6d3b5, #dfdfc3);
+    font-family:  'Press Start 2P', cursive;
 }
 section {
     text-align: center;
 }
-.game--container {
+.game-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 306px;

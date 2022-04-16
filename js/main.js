@@ -1,4 +1,4 @@
-const statusDisplay = document.querySelector('.game--status');
+const statusDisplay = document.querySelector('.game-status');
 
 let gameActive = true;
 
@@ -11,7 +11,7 @@ const drawMessage = () => `Game ended in a draw!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
-document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+document.querySelector('.game-restart').addEventListener('click', handleRestartGame);
 
 statusDisplay.innerHTML = currentPlayerTurn();
 function handleCellPlayed() {
